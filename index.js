@@ -25,7 +25,7 @@ var prependKitten = (name) => {
 }
 
 var removeLastKitten = (name) => {
-  var a = kittens.splice( kittens.length , 2)
+  var a = kittens.slice( 0 , 3)
   return a;
 }
 
