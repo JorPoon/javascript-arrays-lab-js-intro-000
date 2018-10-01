@@ -30,5 +30,5 @@ var removeLastKitten = (name) => {
 }
 
 var removeFirstKitten = (name) => {
-
+ var a = kittens.slice(1, kittens.length)
 }
