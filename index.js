@@ -23,3 +23,12 @@ var appendKitten = ( name ) => {
 var prependKitten = (name) => {
   return [name , ...kittens]
 }
+
+var removeLastKitten = (name) => {
+  var a = kittens.splice(kittens.length, 1)
+  return a;
+}
+
+var removeFirstKitten = (name) => {
+  
+}
